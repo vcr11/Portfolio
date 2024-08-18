@@ -1,4 +1,3 @@
-import { useRef, useState, useEffect } from 'react';
 import LinkedInImage from '../assets/linkedin.png';
 import GitHubImage from '../assets/github.png';
 import MailImage from '../assets/mail.png';
@@ -7,44 +6,14 @@ import LeetCodeImage from '../assets/LeetCode.png';
 import GeeksforGeeksImage from '../assets/gfg.png';
 
 const About = () => {
-  const sectionRef = useRef(null);
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-        }
-      },
-      { threshold: 0.1 }
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
-      }
-    };
-  }, []);
-
   return (
-    <div
-      ref={sectionRef}
-      className={`bg-white dark:bg-black text-black dark:text-white py-20 transform transition-transform duration-1000 ease-out ${
-        isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
-      }`}
-      id="about"
-    >
+    <div className="bg-white dark:bg-black text-black dark:text-white py-20" id="about">
       <div className="container mx-auto px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32">
         <h2 className="text-4xl sm:text-5xl font-bold text-center mb-8 sm:mb-12">
           About Me
         </h2>
         <div className="flex flex-col items-center md:space-x-12">
-          <div className="flex-1 w-full max-w-full mx-auto"> {/* Extend to maximum width */}
+          <div className="flex-1 w-full max-w-full mx-auto">
             <p className="text-justify text-base sm:text-lg md:text-xl leading-relaxed mb-6 sm:mb-8">
               I am currently pursuing a Master’s in Computer Science, with over a year of full-time experience and six months of internship experience in software development. My background includes hands-on work with technologies like Python, JavaScript, React.js, and Node.js. I have developed and maintained web applications, contributed to data migration projects, and implemented real-time monitoring systems. I am seeking a summer 2025 internship or co-op opportunity where I can apply my skills in a challenging environment, collaborate with experienced professionals, and continue growing as a software developer.
             </p>
