@@ -22,7 +22,6 @@ const About = () => {
                 href="https://www.linkedin.com/in/vcr11/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="transform transition-transform duration-300 hover:scale-105"
               >
                 <img 
                   src={LinkedInImage} 
@@ -34,7 +33,6 @@ const About = () => {
                 href="https://github.com/vcr11" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="transform transition-transform duration-300 hover:scale-105"
               >
                 <img 
                   src={GitHubImage} 
@@ -44,7 +42,6 @@ const About = () => {
               </a>
               <a 
                 href="mailto:chandrashekarreddyv2001@gmail.com"
-                className="transform transition-transform duration-300 hover:scale-105"
               >
                 <img 
                   src={MailImage} 
@@ -56,7 +53,6 @@ const About = () => {
                 href="https://www.geeksforgeeks.org/user/vcr11/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="transform transition-transform duration-300 hover:scale-105"
               >
                 <img 
                   src={GeeksforGeeksImage} 
@@ -68,7 +64,6 @@ const About = () => {
                 href="https://leetcode.com/vcr11/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="transform transition-transform duration-300 hover:scale-105"
               >
                 <img 
                   src={LeetCodeImage} 
@@ -80,7 +75,7 @@ const About = () => {
                 href={ResumePDF}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gradient-to-r from-pink-500 to-yellow-500 text-white text-sm sm:text-base px-3 sm:px-4 py-1 sm:py-2 rounded-full transform transition-transform duration-300 hover:scale-105"
+                className="bg-gradient-to-r from-pink-500 to-yellow-500 text-white text-sm sm:text-base px-3 sm:px-4 py-1 sm:py-2 rounded-full"
               >
                 View Resume
               </a>
