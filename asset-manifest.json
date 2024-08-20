@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9c92194e.css",
-    "main.js": "/Portfolio/static/js/main.ef4073be.js",
+    "main.css": "/Portfolio/static/css/main.bd575919.css",
+    "main.js": "/Portfolio/static/js/main.9d189c74.js",
+    "static/media/expenss.png": "/Portfolio/static/media/expenss.a44d3396d604242b04b0.png",
     "static/media/todo.png": "/Portfolio/static/media/todo.69e39942b3b94698602e.png",
     "static/media/Algorthims.png": "/Portfolio/static/media/Algorthims.095fd49371f148e20f51.png",
     "static/media/Resume_Chandra Shekar Reddy.pdf": "/Portfolio/static/media/Resume_Chandra Shekar Reddy.109acd7e6c67841f3502.pdf",
@@ -15,11 +16,11 @@
     "static/media/Ucf.png": "/Portfolio/static/media/Ucf.318088cbffa41544350b.png",
     "static/media/hacker.png": "/Portfolio/static/media/hacker.e0b25d6e828d776241ff.png",
     "index.html": "/Portfolio/index.html",
-    "main.9c92194e.css.map": "/Portfolio/static/css/main.9c92194e.css.map",
-    "main.ef4073be.js.map": "/Portfolio/static/js/main.ef4073be.js.map"
+    "main.bd575919.css.map": "/Portfolio/static/css/main.bd575919.css.map",
+    "main.9d189c74.js.map": "/Portfolio/static/js/main.9d189c74.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c92194e.css",
-    "static/js/main.ef4073be.js"
+    "static/css/main.bd575919.css",
+    "static/js/main.9d189c74.js"
   ]
 }
