@@ -1,3 +1,4 @@
+
 import UcfImage from '../assets/Ucf.png'; // Import the UCF image
 import JntuImage from '../assets/jntu.png'; // Import the JNTU image
 
@@ -6,12 +7,14 @@ const education = [
     institution: "University of Central Florida",
     degree: "Master of Science in Computer Science",
     duration: "Expected Graduation: December 2025",
+    gpa: "GPA: 3.92/4.0",
     image: UcfImage,
   },
   {
     institution: "Jawaharlal Nehru Technological University",
     degree: "Bachelor of Technology in Electronics and Communication",
     duration: "Graduated: June 2022",
+    gpa: "GPA: 3.64/4.0",
     image: JntuImage,
   },
 ];
@@ -40,6 +43,7 @@ const Education = () => {
                 </h3>
                 <p className="mt-2 text-lg sm:text-xl">{edu.degree}</p>
                 <p className="mt-1 text-gray-600 dark:text-gray-300">{edu.duration}</p>
+                <p className="mt-1 text-gray-600 dark:text-gray-300">{edu.gpa}</p> {/* GPA added here */}
               </div>
             </div>
           ))}
