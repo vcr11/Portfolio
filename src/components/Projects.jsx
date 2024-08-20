@@ -1,50 +1,56 @@
-import netflixImage from "../assets/netflix.png";    // Import Netflix Clone image
+import netflixImage from "../assets/netflix.png"; // Import Netflix Clone image
 import vtrImage from "../assets/vtr.png";            // Import Virtual Try-On Room image
 import urlImage from "../assets/url.png";            // Import URL Shortener image
-
-// Import new project images
 import hmsImage from "../assets/hms.png";            // Import Hotel Management System image
 import campImage from "../assets/camp.png";          // Import Camp Booking System image
 import todoImage from "../assets/todo.png";          // Import To Do App using Django image
+import expensImage from "../assets/expenss.png";      // Import Expense Tracker image
 
 const projects = [
   {
     id: 1,
+    name: "Expense Tracker",
+    technologies: "React, Node.js, Express, MongoDB",
+    image: expensImage,
+    github: "https://github.com/vcr11/Expense-Tracker",
+  },
+  {
+    id: 2,
     name: "Netflix Clone",
     technologies: "Python, Django, SQL",
     image: netflixImage,
     github: "https://github.com/vcr11/Netflix_clone",
   },
   {
-    id: 2,
+    id: 3,
     name: "Virtual Try-On Room",
     technologies: "Python, Flask, OpenCV, MySQL",
     image: vtrImage,
     github: "https://github.com/vcr11/VTR",
   },
   {
-    id: 3,
+    id: 4,
     name: "URL Shortener",
     technologies: "Python, Django",
     image: urlImage,
     github: "https://github.com/vcr11/url-shortener",
   },
   {
-    id: 4,
+    id: 5,
     name: "Hotel Management System",
     technologies: "Python",
     image: hmsImage,
     github: "https://github.com/vcr11/HMS",
   },
   {
-    id: 5,
+    id: 6,
     name: "Camp Booking System",
     technologies: "C#, .NET, React",
     image: campImage,
     github: "https://github.com/vcr11/Camp-Booking-System",
   },
   {
-    id: 6,
+    id: 7,
     name: "To Do App using Django",
     technologies: "Python, Django",
     image: todoImage,
