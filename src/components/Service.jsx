@@ -6,7 +6,7 @@ const experience = [
     company: "Nagarro",
     image: NagarroImage,
     position: "Associate Software Engineer",
-    duration: "Aug 2022 – Oct 2023",
+    duration: "Aug 2022 – Dec 2023",
     location: "Telangana, India",
     details: [
       "Developed and migrated a website from Angular to React, significantly enhancing performance and maintainability, which resulted in a 20% faster load time and a 15% increase in user engagement.",
@@ -20,7 +20,7 @@ const experience = [
     company: "RQB Technologies",
     image: RqbImage,
     position: "Software Engineer Intern",
-    duration: "Feb 2022 – Jul 2022",
+    duration: "Jan 2022 – Jul 2022",
     location: "Remote",
     details: [
       "Developed a Python project as part of training, focusing on enhancing programming skills and understanding Python’s capabilities.",
