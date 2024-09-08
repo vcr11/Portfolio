@@ -9,11 +9,11 @@ const experience = [
     duration: "Aug 2022 – Dec 2023",
     location: "Telangana, India",
     details: [
-      "Developed and migrated a website from Angular to React, significantly enhancing performance and maintainability, which resulted in a 20% faster load time and a 15% increase in user engagement.",
+      "Developed and maintained responsive web pages using HTML, CSS, JavaScript, and ReactJS, resulting in a 15% increase in user engagement and 20% faster load times.",
       "Implemented a new Real-Time Telematics Monitoring feature as part of the migration. This feature integrates telemetry devices on railcars to collect and display real-time data on location, speed, and condition, leading to a 25% improvement in operational efficiency and a 20% increase in user satisfaction.",
-      "Collaborated with cross-functional teams, including designers, back-end developers, and stakeholders, to ensure seamless integration and implementation of the new feature using agile methodologies.",
-      "Enhanced communication and reduced project delivery times by 10% through effective teamwork and project management.",
-      "Resolved 30+ bugs in collaboration with the bug-fixing team, improving site stability and reducing user-reported issues by 15%.",
+      "Utilized RESTful APIs to enable seamless communication between telemetry devices and the backend, ensuring efficient, low-latency data transmission.",
+      "Collaborated with cross-functional teams, including designers, back-end developers, and stakeholders, to ensure seamless integration and implementation of new features using agile methodologies.",
+      "Resolved 30+ bugs in collaboration with the bug-fixing team, improving overall site stability and reducing user-reported issues by 25%.",
     ],
   },
   {
@@ -23,11 +23,11 @@ const experience = [
     duration: "Jan 2022 – Jul 2022",
     location: "Remote",
     details: [
-      "Developed a Python project as part of training, focusing on enhancing programming skills and understanding Python’s capabilities.",
-      "Worked on a data migration project, improving performance and reducing costs by streamlining data handling processes.",
-      "Created automation scripts in Python, which increased migration accuracy and efficiency by 40% through automated data processing and conversion.",
-      "Ensured seamless data migration and integrity by connecting to diverse databases, using regular expressions for code conversion, and reducing manual intervention by 50%.",
-      "Generated data validation reports and executed SQL queries, which improved data accuracy and enhanced database operations, ensuring reliable and consistent data migration.",
+      "Worked on a data migration project, improving performance and reducing costs.",
+      "Created automation scripts in Python, increasing migration accuracy and efficiency by 40%.",
+      "Ensured seamless data migration and integrity by connecting to diverse databases and optimizing code conversion with regular expressions, reducing manual intervention by 50%.",
+      "Generated data validation reports and executed SQL queries, improving data accuracy and enhancing database operations.",
+      "Applied regular expressions to identify and convert patterns in strings, optimizing code conversion automation and reducing manual intervention by 50%.",
     ],
   },
 ];

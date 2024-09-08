@@ -1,22 +1,27 @@
-import { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import { FaMoon, FaSun } from 'react-icons/fa';
+import PropTypes from 'prop-types';  // Import PropTypes
 
-const Navbar = () => {
-  const [darkMode, setDarkMode] = useState(false);
+const Navbar = ({ setDarkMode }) => {
+  const [darkMode, setLocalDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-    document.documentElement.classList.toggle('dark', !darkMode);
-    localStorage.setItem('theme', darkMode ? 'light' : 'dark');
+    const newDarkMode = !darkMode;
+    setLocalDarkMode(newDarkMode);
+    setDarkMode(newDarkMode); // Pass darkMode to parent or other components
+    document.documentElement.classList.toggle('dark', newDarkMode);
+    localStorage.setItem('theme', newDarkMode ? 'dark' : 'light');
   };
 
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
-      setDarkMode(savedTheme === 'dark');
-      document.documentElement.classList.toggle('dark', savedTheme === 'dark');
+      const isDark = savedTheme === 'dark';
+      setLocalDarkMode(isDark);
+      setDarkMode(isDark); // Initialize darkMode in parent
+      document.documentElement.classList.toggle('dark', isDark);
     }
-  }, []);
+  }, [setDarkMode]);
 
   return (
     <nav className={`px-4 sm:px-6 md:px-8 lg:px-12 py-4 ${darkMode ? 'bg-black text-white' : 'bg-white text-black'}`}>
@@ -31,7 +36,7 @@ const Navbar = () => {
           <a href="#skills" className='py-2 px-4 hover:text-gray-400'>Skills</a>
           <a href="#service" className='py-2 px-4 hover:text-gray-400'>Experience</a>
           <a href="#projects" className='py-2 px-4 hover:text-gray-400'>Projects</a>
-          <a href="#Certifications" className='py-2 px-4 hover:text-gray-400'>Certifications</a>
+          <a href="#certifications" className='py-2 px-4 hover:text-gray-400'>Certifications</a>
           <a href="#achievements" className='py-2 px-4 hover:text-gray-400'>Achievements</a>
           <a href="#contact" className='py-2 px-4 hover:text-gray-400'>Contact</a>
         </div>
@@ -46,6 +51,10 @@ const Navbar = () => {
       </div>
     </nav>
   );
+};
+
+Navbar.propTypes = {
+  setDarkMode: PropTypes.func.isRequired,  // Validate setDarkMode as a function prop
 };
 
 export default Navbar;
