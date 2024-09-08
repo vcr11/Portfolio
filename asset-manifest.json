@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.bd575919.css",
-    "main.js": "/Portfolio/static/js/main.9876e972.js",
+    "main.css": "/Portfolio/static/css/main.90d3a6f9.css",
+    "main.js": "/Portfolio/static/js/main.a6db6338.js",
+    "static/media/wheather.png": "/Portfolio/static/media/wheather.395477e8ab9a8d2f8df7.png",
     "static/media/expenss.png": "/Portfolio/static/media/expenss.a44d3396d604242b04b0.png",
     "static/media/todo.png": "/Portfolio/static/media/todo.69e39942b3b94698602e.png",
     "static/media/Algorthims.png": "/Portfolio/static/media/Algorthims.095fd49371f148e20f51.png",
-    "static/media/Resume_Chandra Shekar Reddy.pdf": "/Portfolio/static/media/Resume_Chandra Shekar Reddy.8323527dfed91fa4f3ab.pdf",
     "static/media/hms.png": "/Portfolio/static/media/hms.41083f10d892866c68de.png",
     "static/media/url.png": "/Portfolio/static/media/url.46743299fa3c2e4db462.png",
+    "static/media/Resume_Chandra Shekar Reddy.pdf": "/Portfolio/static/media/Resume_Chandra Shekar Reddy.6e5fb1aa6e9ed0c49eda.pdf",
     "static/media/vtr.png": "/Portfolio/static/media/vtr.7e407f6da2489277e2e3.png",
     "static/media/hero-image.png": "/Portfolio/static/media/hero-image.fffc58354cf33b08de8d.png",
     "static/media/oop.png": "/Portfolio/static/media/oop.99bed27436bdeeb14c66.png",
@@ -16,11 +17,11 @@
     "static/media/Ucf.png": "/Portfolio/static/media/Ucf.318088cbffa41544350b.png",
     "static/media/hacker.png": "/Portfolio/static/media/hacker.e0b25d6e828d776241ff.png",
     "index.html": "/Portfolio/index.html",
-    "main.bd575919.css.map": "/Portfolio/static/css/main.bd575919.css.map",
-    "main.9876e972.js.map": "/Portfolio/static/js/main.9876e972.js.map"
+    "main.90d3a6f9.css.map": "/Portfolio/static/css/main.90d3a6f9.css.map",
+    "main.a6db6338.js.map": "/Portfolio/static/js/main.a6db6338.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd575919.css",
-    "static/js/main.9876e972.js"
+    "static/css/main.90d3a6f9.css",
+    "static/js/main.a6db6338.js"
   ]
 }
