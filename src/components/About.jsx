@@ -45,7 +45,7 @@ const About = () => {
           <div className="flex-1">
             <p className="text-lg mb-8 text-justify">
               I am currently pursuing a Master of Science in Computer Science at the University of Central Florida 
-              with a GPA of 3.95/4.0. I have over a year of full-time experience as a Software Engineer at Nagarro and 
+              with a GPA of 3.96/4.0. I have over a year of full-time experience as a Software Engineer at Nagarro and 
               six months as an intern at RQB Technologies. My technical expertise includes Python, Java, React.js, Node.js, 
               and cloud technologies such as AWS. I have contributed to impactful projects, optimizing web applications, 
               implementing real-time monitoring systems, and enhancing API efficiency. 

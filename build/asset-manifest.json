@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.c5b7cb2c.css",
-    "main.js": "/Portfolio/static/js/main.3706e935.js",
+    "main.js": "/Portfolio/static/js/main.775843ea.js",
     "static/media/todo.png": "/Portfolio/static/media/todo.69e39942b3b94698602e.png",
     "static/media/expense-tracker-app.png": "/Portfolio/static/media/expense-tracker-app.6c48a86e89b5fea48b7a.png",
     "static/media/Wheather.png": "/Portfolio/static/media/Wheather.50dcc598fbd1938441d7.png",
     "static/media/Algorthims.png": "/Portfolio/static/media/Algorthims.095fd49371f148e20f51.png",
-    "static/media/Resume_Chandra Shekar Reddy.pdf": "/Portfolio/static/media/Resume_Chandra Shekar Reddy.c5ecb8e6ab63eecab9b9.pdf",
+    "static/media/Resume_Chandra Shekar Reddy.pdf": "/Portfolio/static/media/Resume_Chandra Shekar Reddy.f4d8faddf658cfebb1bd.pdf",
     "static/media/hms.png": "/Portfolio/static/media/hms.41083f10d892866c68de.png",
     "static/media/url.png": "/Portfolio/static/media/url.46743299fa3c2e4db462.png",
     "static/media/Amazon.png": "/Portfolio/static/media/Amazon.0a8644388dd4f3f8751e.png",
@@ -20,10 +20,10 @@
     "static/media/hacker.png": "/Portfolio/static/media/hacker.e0b25d6e828d776241ff.png",
     "index.html": "/Portfolio/index.html",
     "main.c5b7cb2c.css.map": "/Portfolio/static/css/main.c5b7cb2c.css.map",
-    "main.3706e935.js.map": "/Portfolio/static/js/main.3706e935.js.map"
+    "main.775843ea.js.map": "/Portfolio/static/js/main.775843ea.js.map"
   },
   "entrypoints": [
     "static/css/main.c5b7cb2c.css",
-    "static/js/main.3706e935.js"
+    "static/js/main.775843ea.js"
   ]
 }
