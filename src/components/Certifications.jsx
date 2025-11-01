@@ -67,7 +67,7 @@ const Certifications = () => {
 
   return (
     <section
-      id="Certifications"
+      id="certifications"
       ref={sectionRef}
       className={`bg-white dark:bg-black text-black dark:text-white py-20 ${
         isVisible ? 'animate-zoomIn' : ''
